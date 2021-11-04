@@ -5,4 +5,5 @@ function sum(arr) {
     arr.forEach(i => { sum += i });
     return sum;
 };
-sum(arr);
+console.log(sum(arr));
+console.log("test")
